@@ -1,0 +1,27 @@
+{
+  "name": "devwebtester",
+  "version": "1.0.0",
+  "description": "A Browser floating on screen while ypu code.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Denner Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "ini": "^1.3.5",
+    "path": "^0.12.7"
+  },
+  "build": {
+    "appId": "dennertorres.floatingbrowser",
+    "productName": "Floating Browser"
+  }
+}
